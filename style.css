@@ -1,0 +1,189 @@
+body {
+    display:flex;
+    flex-direction: column;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+
+.header {
+    background-color: #1f2937;
+    display:flex;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:20%;
+    padding-right:20%;
+}
+
+.header_logo {
+
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.header_links {
+    display:flex;
+    gap: 10px;
+    margin-left:auto;
+    font-size: 12px; 
+    color:#e5e7eb;
+    align-items: center;
+}
+
+.container1 {
+    height: 250px;
+    background-color: #1f2937;
+    display: flex;
+    color: #f9faf8;
+    justify-content: space-evenly;
+    padding-left:20%;
+    padding-right:20%;
+}
+
+.awesome {
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.awesomepic {
+    display: flex;
+    align-self: center;
+}
+
+.awesomeh1 {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.awesometext {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+
+    background-color: #3882f6;
+    color:#f9faf8;
+    width: 90px;
+    font-weight: 600;
+    padding: 8px;
+    border: none;
+    border-radius: 8px
+}
+
+.container2 {
+    
+    display:flex;
+    flex-direction: column;
+    height: 250px;
+    gap: 10px;
+    margin: 20px;
+    padding-left:20%;
+    padding-right:20%;
+}
+
+.infotext {
+
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size:36px;
+}
+
+.boxes {
+
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.boxes .box {
+
+    width:100px;
+    height:100px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color:#3882f6;
+}
+
+.subtext{
+
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.subtexts{
+
+    width:105px;
+    text-align:center;
+    font-size: 11px;
+}
+
+.container3 {
+    
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height: 250px;
+    gap: 10px;
+    text-align: center;
+    margin: 20px;
+    background-color:#e5e7eb;
+}
+
+.thorquote {
+
+    max-width: 500px;
+    margin-bottom:10px;
+    font-size:22px;
+}
+
+.thorsig {
+
+    max-width: 500px;
+    text-align: end;
+}
+
+.container4 {
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height: 200px;
+    gap: 10px;
+}
+
+.container4box {
+    
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    width: 500px;
+    height: 100px;
+    border-radius: 6px;
+}
+
+.cta {
+    max-width:70%;
+}
+
+.cta1 {
+    color:white;
+}
+
+.cta2 {
+    color:white;
+    font-size: 12px
+}
+
+.footer {
+    text-align:center;
+    background-color: #1f2937;
+    color:white;
+    font-size: 12px;
+    padding: 15px;
+}
